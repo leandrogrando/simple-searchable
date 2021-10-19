@@ -1,0 +1,19 @@
+{
+    "name": "leandrogrando/simple-searchable",
+    "description": "A simple trait to implement eloquent model search method",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leandrogrando",
+            "email": "leandro-grando@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LeandroGrando\\SimpleSerachable\\": "src/"
+        }
+    }
+}
