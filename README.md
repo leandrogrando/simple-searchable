@@ -10,7 +10,7 @@ This is not optimized for big searches, but sometimes you just need to make it s
 Run the following command in your application:
 
 ```
-"leandrogrando/simple-searchable": "1.*"
+composer rquire leandrogrando/simple-searchable
 ```
 
 # Usage
