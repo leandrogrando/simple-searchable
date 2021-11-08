@@ -44,10 +44,11 @@ class User extends Model
 }
 ```
 
-Now you can search your model.
+Now you can search your model. The search method accepts two parameters, the first $query is a mandatory string with the search term while the second is an optional $searchable array that if used, will replace the searchable fields of the model with those informed in the array.
 
 ```php
 // Simple search
+// $query = 'my search term'
 $users = User::search($query)->get();
 
 // Search and get relations
